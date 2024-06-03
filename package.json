@@ -29,7 +29,8 @@
     "lint:fix": "eslint ./src/* --fix && prettier -w src",
     "start": "node -r esbuild-register src/index.ts",
     "test": "jest",
-    "update": "ncu -u"
+    "update": "ncu -u",
+    "contest": "npx ts-node ./src/controllers/contest-controller.ts"
   },
   "dependencies": {
     "axios": "^1.6.7",
