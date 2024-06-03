@@ -1,1 +1,1 @@
-# GakuenIdolmasterContestSimulator
+# template-typescript
