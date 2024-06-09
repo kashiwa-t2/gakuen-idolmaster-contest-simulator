@@ -10,7 +10,10 @@ export type Idol = {
   danceScoreRate: number;
   visualScoreRate: number;
 
+  remainingActions: number;
+
   health: number;
+  maxHealth: number;
   energy: number;
   goodCondition: number;
   concentration: number;
@@ -19,6 +22,7 @@ export type Idol = {
   perfectCondition: number;
   healthDecreaseDown: number;
   healthDecreaseUp: number;
+  healthDecreaseReduction: number;
   energyIncreaseInvalid: number;
 };
 
@@ -28,6 +32,7 @@ export const idol: Idol = {
   dance: 1000,
   visual: 1000,
   health: 33,
+  maxHealth: 33,
 
   // 以下はコンテスト中に変動するステータスなので、初期値は0
 
@@ -39,6 +44,9 @@ export const idol: Idol = {
   danceScoreRate: 10,
   // visualによるスコア倍率
   visualScoreRate: 10,
+
+  // このターンの行動数
+  remainingActions: 0,
 
   // 元気
   energy: 0,
@@ -56,6 +64,8 @@ export const idol: Idol = {
   healthDecreaseDown: 0,
   // 体力減少上昇
   healthDecreaseUp: 0,
+  // 消費体力削減 を　英語に
+  healthDecreaseReduction: 0,
   // 元気増加無効
   energyIncreaseInvalid: 0,
 };

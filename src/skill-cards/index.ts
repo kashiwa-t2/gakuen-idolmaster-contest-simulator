@@ -1,4 +1,4 @@
-import { アピールの基本, アピールの基本plus } from "./yaruki/normal";
+import { アピールの基本, アピールの基本plus } from "./free/normal";
 
 const skillCards = {
   アピールの基本,
