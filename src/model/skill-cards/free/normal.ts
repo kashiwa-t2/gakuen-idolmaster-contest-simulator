@@ -1,7 +1,7 @@
-import { Attribute } from "../../model/attribute";
-import { Idol } from "../../model/idol";
-import { decreaseHealth, increaseEnergy } from "../../utils/calclate-health";
-import { calculateScore } from "../../utils/calclate-score";
+import { Attribute } from "../../../types/attribute";
+import { Idol } from "../../idol";
+import { decreaseHealth, increaseEnergy } from "../../../utils/calclate-health";
+import { calculateScore } from "../../../utils/calclate-score";
 
 export const アピールの基本 = (idol: Idol, attributeRate: number) => {
   // ライフ-4, パラメータ+9

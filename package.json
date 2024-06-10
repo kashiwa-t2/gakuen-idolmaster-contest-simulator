@@ -2,7 +2,7 @@
   "name": "gakuen-idolmaster-contest-simulator",
   "description": "",
   "version": "1.0.0",
-  "author": "wbydo",
+  "author": "kashiwa-t2",
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/humps": "^2.0.6",
