@@ -1,6 +1,7 @@
 // メイン、サブを含めたアイドルのカード情報やステータスを全て管理する
 
 import { PItem } from "../types/p-item";
+import { SkillCard } from "../types/skill-cards";
 
 export type Idol = {
   name: string;
@@ -37,6 +38,7 @@ export type Idol = {
   };
 
   pItems: PItem[];
+  skillCards: SkillCard[];
 };
 
 export const idol: Idol = {
@@ -85,4 +87,16 @@ export const idol: Idol = {
   },
 
   pItems: ["夢にあふれた大荷物", "みちくさ研究ノート"],
+  skillCards: [
+    "アピールの基本",
+    // "アピールの基本plus",
+    "ポーズの基本",
+    "ポーズの基本plus",
+    "表現の基本",
+    "表現の基本plus",
+    "アピールの基本",
+    "アピールの基本",
+    "アピールの基本",
+    "アピールの基本",
+  ],
 };
